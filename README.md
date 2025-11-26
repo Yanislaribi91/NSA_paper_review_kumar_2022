@@ -14,7 +14,7 @@ Trois notebooks composent ce repo, dont le contenu de chacun est détaillé ci-a
 
 ---
 
-## **1. `comparaison_algo_clustering_kumar2022.ipynb`**
+## **1. `comparaison_algo_clustering_kumar_2022.ipynb`**
 
 Ce notebook regroupe une **comparaison pratique entre plusieurs algorithmes de clustering** :
 
@@ -29,13 +29,12 @@ Objectifs du notebook :
 - analyser l’influence de la distance modifiée $d_{\mathrm{new}}$,
 - mesurer et visualiser des métriques comme l’accuracy, l’ICD, ou la fonction objectif OFV.
 
-Ce notebook sert de **module de validation expérimentale** pour situer PSOIFCM par rapport à des méthodes standard.
 
 ---
 
 ## **2. `PSOIFCM_reproduction_kumar_2022.ipynb`**
 
-Il s’agit du **notebook principal**, dédié à :
+notebook dédié à 
 
 - l’implémentation complète de l’algorithme **PSOIFCM**,  
   conformément aux équations et au pseudo-code de l’article (initialisation, PSO, IFCM) ;
@@ -44,7 +43,6 @@ Il s’agit du **notebook principal**, dédié à :
 - la génération de **visualisations** (ACP, affichage des clusters, trajectoires des centroïdes) ;
 - l’analyse de la qualité du clustering via différentes métriques.
 
-Ce notebook constitue le **cœur de notre reproduction**, avec un code documenté et commenté.
 
 ---
 
@@ -56,34 +54,10 @@ Il permet notamment :
 
 - de **réimplémenter un PSO générique** capable de minimiser n’importe quelle fonction,
 - de tester l’algorithme sur des **fonctions 2D visualisables** (Himmelblau, Rastrigin, etc.) ;
-- de **visualiser dynamiquement** les particules : trajectoires, convergence, courbes de niveau ;
+- de **visualiser dynamiquement** les particules : trajectoires, courbes de niveau ;
 - d’étudier l’impact des hyperparamètres : inertie $\omega$, coefficients $c_1$/$c_2$, taille d’essaim, etc.
 
 Ce notebook nous a servi à mieux comprendre les **mécanismes internes de PSO** et à justifier certains choix dans l’algorithme PSOIFCM.
 
----
 
-## **Contenu complémentaire**
-
-Le dépôt inclut également :
-
-- des fonctions utilitaires pour le calcul de la distance $d_{\mathrm{new}}$ et des critères IFCM,
-- des routines de visualisation (ACP, scatter plots, animations PSO),
-- divers tests sur des jeux de données réels et simulés,
-- des commentaires détaillés concernant les équations tirées du papier.
-
----
-
-## **Objectif pédagogique**
-
-Au-delà de la reproduction de l’article, ce projet nous a permis de :
-
-- approfondir PSO et le clustering flou,
-- analyser rigoureusement les choix méthodologiques de l’article,
-- développer une implémentation complète, modulaire et commentée,
-- expérimenter de manière contrôlée sur différents jeux de données.
-
----
-
-N’hésitez pas à consulter les notebooks dans l’ordre indiqué pour suivre le déroulement logique de notre étude.
 
