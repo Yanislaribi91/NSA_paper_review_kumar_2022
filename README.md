@@ -10,7 +10,7 @@ Ce dépôt contient le code que nous avons développé pour :
 2. **expérimenter plus en profondeur certaines des techniques introduites dans l’article**,  
    notamment l’optimisation par essaim de particules (PSO) et le clustering flou (IFCM).
 
-Trois notebooks principaux composent ce repo, chacun correspondant à une partie spécifique de notre étude.
+Trois notebooks composent ce repo, dont le contenu de chacun est détaillé ci-après :
 
 ---
 
