@@ -26,8 +26,8 @@ Ce notebook regroupe une **comparaison pratique entre plusieurs algorithmes de c
 Objectifs du notebook :
 
 - comparer les partitions obtenues sur différents jeux de données (réels et artificiels),
-- analyser l’influence de la distance modifiée $d_{\mathrm{new}}$,
-- mesurer et visualiser des métriques comme l’accuracy, l’ICD, ou la fonction objectif OFV.
+- analyser l’influence de la nouvelle distance $d_{\mathrm{new}}$,
+- mesurer et visualiser des métriques comme l’accuracy, l’ICD (inter cluster distance) , ou la valeur de la fonction objectif à minimiser (OFV).
 
 
 ---
@@ -48,16 +48,15 @@ notebook dédié à
 
 ## **3. `Particle_swarm_optimization.ipynb`**
 
-Ce notebook est consacré à une **étude approfondie du PSO lui-même**, indépendamment du clustering.
+Ce notebook est consacré à une **étude du PSO lui-même**, indépendamment du clustering.
 
 Il permet notamment :
 
 - de **réimplémenter un PSO générique** capable de minimiser n’importe quelle fonction,
 - de tester l’algorithme sur des **fonctions 2D visualisables** (Himmelblau, Rastrigin, etc.) ;
 - de **visualiser dynamiquement** les particules : trajectoires, courbes de niveau ;
-- d’étudier l’impact des hyperparamètres : inertie $\omega$, coefficients $c_1$/$c_2$, taille d’essaim, etc.
+- d’étudier l’impact des hyperparamètres : inertie $\omega$, coefficients $c_1$, $c_2$, taille d’essaim, etc.
 
-Ce notebook nous a servi à mieux comprendre les **mécanismes internes de PSO** et à justifier certains choix dans l’algorithme PSOIFCM.
 
 
 
